@@ -1,0 +1,28 @@
+Name Mortar Mechanism
+ShortName mortar
+//The ammo this gun uses (shortName)
+Ammo mortarHe 
+Ammo mortarAp
+Icon MortarMechanism
+//Colour in Red, Green, Blue, each going up to 255.
+Colour 255 255 255
+ItemID 26007
+//Reload time in ticks, 1/20ths of a second
+ReloadTime 80
+//The amount of gun recoil, all relative : Sten = 1, Mp40 = 3, Kar98kSniper = 20
+Recoil 100000000
+//Damage in half hearts
+Damage 1
+//The higher this value, the more the bullets spread
+Accuracy 10
+//Time in ticks between rounds
+ShootDelay 1
+ShootSound bazookaShoot
+//The length of the sound. 0 for a single shot sound. Other values are for looping sounds
+SoundLength 0
+DistortSound False
+ReloadSound bazookaReload
+Mode FullAuto
+Scope None
+Deployable False
+BulletSpeed 0.2

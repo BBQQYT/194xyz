@@ -1,0 +1,59 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiWorldSelection
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=346972%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=424972%
+  orientation = bottom-centered
+  x = -154
+  action = movebutton
+  y = -28
+}
+
+customization {
+  identifier = %id=424972%
+  width = 150
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=424972%
+  action = setbuttonlabel
+  value = СНЕСТИ ЗАВОД
+}
+
+customization {
+  identifier = %id=346948%
+  action = setbuttonlabel
+  value = ИДТИ НА ЗАВОД
+}
+
+customization {
+  identifier = %id=504948%
+  action = setbuttonlabel
+  value = СОЗДАТЬ ЗАВОД
+}
+
+customization {
+  identifier = %id=504972%
+  action = setbuttonlabel
+  value = ПЕРЕСОЗДАТЬ
+}
+

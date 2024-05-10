@@ -1,0 +1,9 @@
+Name Scout
+ShortName italianScout
+AddItem carcSniper
+AddItem bm1934
+AddItem mano42 2
+AddItem ww2Knife
+AddItem ww2Binoculars
+AddItem carcAmmo 3
+AddItem bm1934Ammo 2

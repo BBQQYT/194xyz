@@ -1,0 +1,9 @@
+Name Medic
+ShortName italianMedic
+AddItem carc
+AddItem bm1934
+AddItem mano42 2
+AddItem ww2MedKit
+AddItem ww2Knife
+AddItem carcAmmo 2
+AddItem bm1934Ammo 2

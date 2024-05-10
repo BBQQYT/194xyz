@@ -1,0 +1,8 @@
+Name Assault
+ShortName italianAssault
+AddItem bm38
+AddItem bm1934
+AddItem mano42 2
+AddItem ww2Knife
+AddItem bm38Ammo 3
+AddItem bm1934Ammo 2

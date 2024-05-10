@@ -1,0 +1,207 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMainMenu
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = menu/fons.png
+  action = texturizebackground
+}
+
+customization {
+  path = menu/Gimny_-_Gosudarstvennyjj_gimn_SSSR_48240987.wav
+  loop = true
+  action = addaudio
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-right
+  x = -200
+  action = movebutton
+  y = -62
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = setbuttonlabel
+  value = НА ВОЙНУ
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = bottom-right
+  x = -98
+  action = movebutton
+  y = -20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = setbuttonlabel
+  value = ПОДГОТОВИТСЯ
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = bottom-left
+  x = 0
+  action = movebutton
+  y = -20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = setbuttonlabel
+  value = В МИР ИНОЙ
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-right
+  x = -200
+  action = movebutton
+  y = -36
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = setbuttonlabel
+  value = НА ЗАВОД ТЕХНИКИ
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = mid-right
+  x = -98
+  action = movebutton
+  y = -10
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = setbuttonlabel
+  value = СНАРЯЖЕНИЕ
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 335
+  width = 291
+  action = deep_customization_element:title_screen_forge_top
+  actionid = d9d69fb0-ec16-4a51-84c0-1af9a252f8e31714770390064
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 111
+  action = deep_customization_element:title_screen_branding
+  actionid = f284f85b-c2f2-40b3-b666-6e69a360cc3d1714770390064
+  y = 463
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 741
+  width = 218
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 43312465-ca35-4f79-80a0-9dc13f1b95c91714770390064
+  y = 485
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 583
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = e9205144-183b-4ecb-888b-3ec1f40539441714770390064
+  y = 226
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 343
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 7defe12a-ee1a-4f38-bf51-df175b3ae4081714770390065
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = top-centered
+  splash_color = #ffff00
+  hidden = true
+  x = 111
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = d7ffa1bf-bc02-4f99-b856-4458250a45f11714770390065
+  y = 78
+  height = 30
+}
+
+customization {
+  path = menu/sssda.png
+  orientation = top-centered
+  x = -250
+  width = 501
+  actionid = 66bf8d36-704e-48bc-a493-46f3580ae07e1714770567678
+  action = addtexture
+  y = -2
+  height = 100
+}
+
+customization {
+  path = 
+  orientation = top-left
+  x = 0
+  width = 0
+  actionid = a1cf636b-b0bf-45c1-a3db-1283e92b41621714770517666
+  action = addtexture
+  y = 22
+  height = 100
+}
+
+customization {
+  path = menu/292810519fe46d8448b5939be4a1f4b7.png
+  orientation = top-left
+  x = 760
+  width = 201
+  actionid = 0dbf6ac2-bec0-425e-bcd7-7c4a0d014a831714771324340
+  action = addtexture
+  y = 0
+  height = 190
+}
+

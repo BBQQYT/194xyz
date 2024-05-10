@@ -1,0 +1,9 @@
+Name Engineer
+ShortName italianEngineer
+AddItem bm38
+AddItem bm1934
+AddItem mano42 1
+AddItem ww2Mine 2
+AddItem ww2Knife
+AddItem bm38Ammo 4
+AddItem bm1934Ammo 2

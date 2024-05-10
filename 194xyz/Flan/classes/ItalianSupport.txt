@@ -1,0 +1,10 @@
+Name Support
+ShortName italianSupport
+AddItem BM30
+AddItem mortaio
+AddItem bm1934
+AddItem ww2Knife
+AddItem mortarHe 5
+AddItem BM30Ammo 3
+AddItem bm1934Ammo 3
+AddItem fuelCan 4
